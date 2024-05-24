@@ -1,1 +1,0 @@
-# kuzmintsev-s-wedding
