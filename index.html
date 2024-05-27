@@ -34,10 +34,6 @@
         .description {
             margin-bottom: 20px;
         }
-        .countdown {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
         .restaurant-images,
         .single-image {
             margin-bottom: 20px;
@@ -50,7 +46,7 @@
             margin-bottom: 10px;
         }
         .form-group {
-            margin-top: 40px;
+            margin-top: 30px;
         }
         .form-group label {
             display: block;
@@ -65,7 +61,7 @@
             border-radius: 5px;
         }
         .form-group button {
-            padding: 15px 30px;
+            padding: 10px 30px;
             font-size: 1em;
             background-color: #ff6b6b;
             color: #fff;
@@ -95,23 +91,23 @@
     <div class="container">
         <h1>День рождение новой семьи</h1>
         <div class="description">
-            <p>Мы рады пригласить вас на особенное событие в нашей жизни - день рождение новой семьи! Присоединитесь к нам для создания незабываемых воспоминаний в ресторане TheMost.</p>
+            <p>Мы рады пригласить вас 27 июля 2024 на особенное событие в нашей жизни - день рождение новой семьи!</p>
         </div>
-        <p>Место проведения</p>
-        <p>Ресторан TheMost</p>
-        <p>Цветовая гамма мероприятия: пастельные тона</p>
-        <div class="single-image">
-            <img src="color_theme.jpg" alt="Цветовая гамма мероприятия">
-        </div>
-        <div class="restaurant-images">
+        <p>Торжественная регистрация пройдет по адресу г. Саратов, ул. 2-я Садовая, д. 36/40 9:00</p>
+        <p>Торжественный банкет пройдет по адресу г. Саратов, Набережная космонавтов, 7а ст2 - VIP-Зал "Венеция" 12:00</p>
+          <div class="restaurant-images">
             <img src="restaurant1.jpg" alt="Ресторан TheMost">
-            <img src="restaurant2.jpg" alt="Ресторан TheMost">
         </div>
-        <div class="countdown" id="countdown">
+<div class="countdown" id="countdown">
             До свадьбы осталось: <span id="days"></span>д <span id="hours"></span>ч <span id="minutes"></span>м <span id="seconds"></span>с
         </div>
+        <p>Мы будем благодарны, если вы поддержите цветовую палитру нашего торжества</p>
+        <div class="single-image">
+            <img src="color_theme.jpg" alt="Цветовая гамма мероприятия">
+            <p>*Мужчины могу сочетать в выборе наряда: белый верх и низ, предложенной цветовой палитры дня</p>
+        </div>
         <p class="confirmation-message">Для подтверждения участия, заполните форму ниже</p>
-        <form action="https://formspree.io/f/your_form_id" method="post">
+        <form action="https://formspree.io/f/mayrzdpy" method="post">
             <div class="form-group">
                 <label for="name">Ваше имя:</label>
                 <input type="text" id="name" name="name" required>
@@ -119,7 +115,7 @@
             <div class="form-group">
                 <label for="email">Ваш email:</label>
                 <input type="email" id="email" name="email" required>
-                </div>
+            </div>
             <div class="form-group">
                 <label for="message">Ваше сообщение:</label>
                 <textarea id="message" name="message" rows="4"></textarea>
@@ -129,7 +125,7 @@
             </div>
         </form>
     </div>
-    <script>
+<script>
         // Устанавливаем дату свадьбы
         var weddingDate = new Date("July 27, 2024 09:00:00").getTime();
 
