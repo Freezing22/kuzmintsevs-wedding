@@ -17,17 +17,18 @@
         }
         .container {
             padding: 20px;
-            background: rgba(0, 0, 0, 0.3); /* Прозрачный фон */
+            background: rgba(0, 0, 0, 0.6);
             margin: 20px auto;
             max-width: 800px; /* Ширина основной формы */
             border-radius: 10px;
         }
         h1 {
+            font-family: 'Great Vibes', cursive;
             font-size: 3em;
             margin-bottom: 20px;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1.8em;
             margin-bottom: 20px;
         }
         .description {
@@ -58,8 +59,6 @@
             font-size: 1em;
             border: none;
             border-radius: 5px;
-            background: rgba(255, 255, 255, 0.8); /* Белый прозрачный фон для ввода */
-            color: #000; /* Черный текст для ввода */
         }
         .form-group button {
             padding: 10px 30px;
@@ -78,9 +77,6 @@
             color: #ccc;
             margin-top: 10px;
         }
-        .countdown {
-            font-weight: bold;
-        }
         @media (max-width: 600px) {
             h1 {
                 font-size: 2em;
@@ -97,13 +93,20 @@
         <div class="description">
             <p>Мы рады пригласить вас 27 июля 2024 на особенное событие в нашей жизни - день рождения новой семьи!</p>
         </div>
-        <p>Торжественная регистрация пройдет по адресу г. Саратов, ул. 2-я Садовая, д. 36/40 9:00</p>
+        <p>Торжественная регистрация пройдет по адресу г. Саратов, ул. 2-я Садовая, д. 36/40 </p>
+        <p>                                 9:00                                             </p>
+        <p>Торжественный банкет пройдет по адресу г. Саратов, Набережная космонавтов, 7а ст2 - VIP-Зал "Венеция" </p>
+        <p>                                12:00                                              </p>
+          <div class="restaurant-images">
+            <img src="restaurant1.jpg" alt="Ресторан TheMost">
+        <p>Мы будем благодарны, если вы поддержите цветовую палитру нашего торжества</p>
         <div class="single-image">
             <img src="color_theme.jpg" alt="Цветовая гамма мероприятия">
-            <p>*Мужчины могу сочетать в выборе наряда: белый верх и низ, предложенной цветовой палитры дня</p>
-        </div>
-        <div class="countdown" id="countdown">
+            <p>*Мужчины могут сочетать в выборе наряда: белый верх и низ, предложенной цветовой палитры дня</p>
+             </div>
+<div class="countdown" id="countdown">
             До свадьбы осталось: <span id="days"></span>д <span id="hours"></span>ч <span id="minutes"></span>м <span id="seconds"></span>с
+        </div>
         </div>
         <p class="confirmation-message">Для подтверждения участия, заполните форму ниже</p>
         <form action="https://formspree.io/f/mayrzdpy" method="post">
